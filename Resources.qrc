@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>Images/ICTULogo.png</file>
+        <file>Images/chat-icon.jpg</file>
+        <file>Images/default_profile_picture.jpg</file>
+        <file>CurrentUser.txt</file>
+    </qresource>
+</RCC>

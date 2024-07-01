@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font-size: 14px;
+background-color: #f0f0f0;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>90</y>
+      <width>421</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QListWidget" name="listWidget_chats">
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #ccc;
+border-radius: 5px;
+background-color: white;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_searchfriends">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 1.5em;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter a friend ID</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>20</y>
+      <width>231</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="pushButton_newchat">
+       <property name="styleSheet">
+        <string notr="true">padding: 5px 10px;
+border: 1px solid #0078d7;
+border-radius: 5px;
+background-color: #0078d7;
+color: white;</string>
+       </property>
+       <property name="text">
+        <string>New Chat</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_groupchat">
+       <property name="styleSheet">
+        <string notr="true">padding: 5px 10px;
+border: 1px solid #0078d7;
+border-radius: 5px;
+background-color: #0078d7;
+color: white;</string>
+       </property>
+       <property name="text">
+        <string>Group Chat</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_username">
+         <property name="styleSheet">
+          <string notr="true">font-size: 14px;
+font-family: Arial, sans-serif; 
+font-weight: bold; 
+color: #333; 
+text-align: center;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_profilepic">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_addPic">
+         <property name="styleSheet">
+          <string notr="true">padding: 5px 10px;
+border: 1px solid #0078d7;
+border-radius: 5px;
+background-color: #0078d7;
+color: white;</string>
+         </property>
+         <property name="text">
+          <string>Add a profile picture</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_addfriend">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding: 5px 10px;
+border: 1px solid #0078d7;
+border-radius: 5px;
+background-color: #0078d7;
+ color: white;</string>
+    </property>
+    <property name="text">
+     <string>Add friend</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuChats">
+    <property name="title">
+     <string>Chats</string>
+    </property>
+   </widget>
+   <addaction name="menuChats"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignUpWindows</class>
+ <widget class="QMainWindow" name="SignUpWindows">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>621</width>
+    <height>293</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SignUpWindows</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #f0f0f0;</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_fullName">
+      <property name="text">
+       <string>Full name:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit_FullName">
+      <property name="styleSheet">
+       <string notr="true">padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-weight: bold;
+      color: #333;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_email">
+      <property name="text">
+       <string>Email address:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_email">
+      <property name="styleSheet">
+       <string notr="true">padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_password">
+      <property name="text">
+       <string>Password:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_Password">
+      <property name="styleSheet">
+       <string notr="true">padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_confirmPass">
+      <property name="text">
+       <string>Confirm Password</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_ConfirmPass">
+      <property name="styleSheet">
+       <string notr="true">padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Preferred</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_SignUp">
+        <property name="styleSheet">
+         <string notr="true">padding: 5px 10px;
+border: 1px solid #0078d7;
+border-radius: 5px;
+background-color: #0078d7;
+color: white;</string>
+        </property>
+        <property name="text">
+         <string>Signup</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Quit">
+        <property name="styleSheet">
+         <string notr="true">padding: 5px 10px;
+border: 1px solid #0078d7;
+border-radius: 5px;
+background-color: #0078d7;
+color: white;</string>
+        </property>
+        <property name="text">
+         <string>Quit</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="7" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Already have an account?</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_login">
+        <property name="styleSheet">
+         <string notr="true">color: blue;
+text-decoration: underline;
+padding: 5px 10px;
+border: 1px solid #0078d7;
+border-radius: 5px;
+background-color: #0078d7;
+color: white;</string>
+        </property>
+        <property name="text">
+         <string>Login</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_logo">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLabel" name="label_developer">
+      <property name="styleSheet">
+       <string notr="true">font-weight: bold;
+color: #333;</string>
+      </property>
+      <property name="text">
+       <string>Developed by: EJOH ESHINGWE DARYL</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>621</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSign_In_Page">
+    <property name="styleSheet">
+     <string notr="true">font-weight: bold;</string>
+    </property>
+    <property name="title">
+     <string>Create an account</string>
+    </property>
+   </widget>
+   <addaction name="menuSign_In_Page"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

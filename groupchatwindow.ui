@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GroupChatWindow</class>
+ <widget class="QMainWindow" name="GroupChatWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: #f0f0f0;
+border-radius: 10px;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>431</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QListWidget" name="listWidget_chats">
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid #ccc;
+border-radius: 5px;
+background-color: white;</string>
+       </property>
+       <property name="isWrapping" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="lineEdit_message">
+         <property name="styleSheet">
+          <string notr="true">padding: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_addImage">
+         <property name="styleSheet">
+          <string notr="true">padding: 5px 10px;
+border: 1px solid #0078d7;
+border-radius: 5px;
+background-color: #0078d7;
+color: white;</string>
+         </property>
+         <property name="text">
+          <string>Add image</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_send">
+         <property name="styleSheet">
+          <string notr="true">padding: 5px 10px;
+border: 1px solid #0078d7;
+border-radius: 5px;
+background-color: #0078d7;
+color: white;</string>
+         </property>
+         <property name="text">
+          <string>Send</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>476</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGroup_Chatting">
+    <property name="title">
+     <string>Group Chating</string>
+    </property>
+   </widget>
+   <addaction name="menuGroup_Chatting"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
